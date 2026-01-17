@@ -156,7 +156,7 @@ export default function Community() {
                 </div>
               </div>
               <p className="text-sm opacity-90">
-                "Leading the green initiative and organizing weekly yoga sessions."
+                &quot;Leading the green initiative and organizing weekly yoga sessions.&quot;
               </p>
             </div>
           </div>
