@@ -61,11 +61,11 @@ npm run dev
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14+ with TypeScript
-- **Styling**: Tailwind CSS
-- **Database**: PostgreSQL (via Prisma ORM)
-- **Authentication**: NextAuth.js
-- **UI Components**: shadcn/ui
+- **Framework**: Next.js 16+ with TypeScript
+- **Styling**: Tailwind CSS 4.x
+- **UI**: React 19.2.3
+- **Build Tool**: Turbopack
+- **Linting**: ESLint 9.x
 
 ## 📦 Project Structure
 
