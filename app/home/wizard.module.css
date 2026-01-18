@@ -1,0 +1,498 @@
+/* Wizard Container */
+.wizardContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f7fafd 0%, #ffffff 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.wizardHeader {
+  background: linear-gradient(90deg, #1e90ff 0%, #00c48c 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(30, 144, 255, 0.2);
+}
+
+.wizardHeader h1 {
+  margin: 0;
+  font-size: 1.40rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.wizardHeader p {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.816rem; /* Increased by 20% from 0.68rem */
+  opacity: 0.95;
+  font-weight: 500;
+}
+
+/* Body Layout */
+.wizardBody {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  max-width: 1400px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+/* Stepper */
+.stepper {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(30, 144, 255, 0.1);
+  height: fit-content;
+  position: sticky;
+  top: 2rem;
+}
+
+.stepItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.stepItem:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 1.5rem;
+  top: 3rem;
+  width: 2px;
+  height: 1.5rem;
+  background: #e0e0e0;
+}
+
+.stepItem.complete::after {
+  background: #10b981;
+}
+
+.stepItem:hover {
+  background: #f8f9fa;
+}
+
+.stepItem.active {
+  background: linear-gradient(135deg, rgba(30, 144, 255, 0.08) 0%, rgba(0, 196, 140, 0.08) 100%);
+  border: 2px solid #1e90ff;
+}
+
+.stepNumber {
+  width: 24px; /* Increased by 20% from 20px */
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e0e0;
+  color: #666;
+  font-weight: 600;
+  font-size: 0.672rem; /* Increased by 20% from 0.56rem */
+  flex-shrink: 0;
+}
+
+.stepItem.active .stepNumber {
+  background: linear-gradient(90deg, #1e90ff 0%, #00c48c 100%);
+  color: white;
+}
+
+.stepItem.complete .stepNumber {
+  background: #10b981;
+  color: white;
+}
+
+.stepTitle {
+  font-size: 0.80rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Step Content */
+.stepContent {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(30, 144, 255, 0.1);
+  min-height: 500px;
+}
+
+.formStep h2 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.30rem;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.stepDescription {
+  color: #6b7280;
+  margin: 0 0 1rem 0;
+  font-size: 0.80rem;
+}
+
+/* Form Elements */
+.formGroup {
+  margin-bottom: 0.8rem; /* 50% reduction for compact layout */
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.25rem; /* Reduced gap */
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.65rem; /* Slightly larger than 40% reduction for readability */
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.4rem 0.5rem; /* Reduced vertical padding */
+  border: 2px solid #e5e7eb;
+  border-radius: 6px; /* Slightly reduced */
+  font-size: 0.7rem; /* Slightly larger than 40% reduction for readability */
+  transition: border-color 0.2s ease;
+  font-family: inherit;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #1e90ff;
+  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.1);
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.helpText {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 1.02rem; /* Increased by 20% from 0.85rem */
+  color: #6b7280;
+}
+
+.inputError {
+  border-color: #ef4444 !important;
+}
+
+.errorText {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.78rem; /* Slightly smaller for better readability */
+  color: #ef4444;
+  font-weight: 500;
+}
+
+/* Form Row (2 columns) */
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Section Title */
+.sectionTitle {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.1rem;
+  color: #1f2937;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.divider {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px solid #e5e7eb;
+}
+
+/* Color Picker */
+.colorPickerGroup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.colorInput {
+  width: 60px;
+  height: 42px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.colorText {
+  flex: 1;
+}
+
+/* Preview Cards */
+.previewCard {
+  background: #f9fafb;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.previewLabel {
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #374151;
+}
+
+.logoPreview {
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.brandPreview {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.previewLogo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.previewName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.colorSwatch {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.skipNote {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  border-radius: 6px;
+}
+
+/* Info Card */
+.infoCard {
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.infoCard p {
+  margin: 0;
+  color: #1e40af;
+  font-size: 0.95rem;
+}
+
+/* Review Section */
+.reviewSection {
+  margin-bottom: 1rem; /* Reduced gap */
+  padding-bottom: 0.8rem; /* Reduced gap */
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.reviewSection:last-of-type {
+  border-bottom: none;
+}
+
+.reviewSection h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: #1f2937;
+}
+
+.reviewList {
+  display: grid;
+  grid-template-columns: 160px 1fr; /* Narrower label column */
+  gap: 0.5rem 0.8rem; /* Reduced gaps */
+}
+
+.reviewList dt {
+  font-weight: 500;
+  color: #6b7280;
+  font-size: 0.65rem; /* Reduced font size */
+}
+
+.reviewList dd {
+  margin: 0;
+  color: #1f2937;
+  word-break: break-word;
+  font-size: 0.7rem; /* Reduced font size */
+}
+
+.reviewLogo {
+  max-width: 80px;
+  max-height: 40px;
+  object-fit: contain;
+}
+
+.reviewColorSwatch {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.reviewNote {
+  background: #f0fdf4;
+  border: 2px solid #10b981;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.reviewNote p {
+  margin: 0;
+  color: #065f46;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+.wizardFooter {
+  background: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: flex-end; /* Right-align buttons */
+  gap: 1rem;
+}
+
+.btnBack,
+.btnNext,
+.btnSubmit {
+  padding: 0.72rem 1.8rem; /* Increased by 20% */
+  font-size: 0.96rem; /* Increased by 20% from 0.8rem */
+  font-weight: 600;
+  border-radius: 6px; /* Bootstrap-style radius */
+  cursor: pointer;
+  border: none;
+  transition: none; /* Remove transitions for solid buttons */
+}
+
+.btnBack {
+  background: #6c757d; /* Bootstrap secondary grey */
+  color: white;
+}
+
+.btnBack:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btnNext {
+  background: #0d6efd; /* Bootstrap primary blue */
+  color: white;
+}
+
+.btnSubmit {
+  background: #198754; /* Bootstrap success green */
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .wizardBody {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stepper {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+    position: static;
+  }
+
+  .stepItem {
+    flex-direction: column;
+    min-width: 100px;
+    text-align: center;
+    padding: 0.75rem;
+  }
+
+  .stepItem::after {
+    display: none;
+  }
+
+  .stepTitle {
+    font-size: 0.75rem;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+
+  .reviewList {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .reviewList dt {
+    font-weight: 600;
+    margin-top: 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .wizardHeader h1 {
+    font-size: 1.5rem;
+  }
+
+  .stepContent {
+    padding: 1.5rem;
+  }
+
+  .wizardFooter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btnBack,
+  .btnNext,
+  .btnSubmit {
+    width: 100%;
+  }
+}
+
+/* Copyright Footer */
+.wizardCopyright {
+  padding: 1.5rem 0 0.5rem 0;
+  text-align: center;
+  color: #7a7a7a;
+  font-size: 0.8rem;
+  background: transparent;
+  border-top: none;
+}

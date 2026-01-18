@@ -1,0 +1,279 @@
+/* Setup Screen - Desktop First, 2-Column Layout */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f7fafd 0%, #ffffff 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 48px;
+  padding: 64px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+/* Left Panel - Informational */
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.brand {
+  margin-bottom: 24px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #1e90ff 0%, #00c48c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.brandTagline {
+  font-size: 16px;
+  color: #666;
+  margin: 4px 0 0 0;
+  font-weight: 500;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.headline {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 540px;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(30, 144, 255, 0.08);
+  border-radius: 8px;
+}
+
+/* Right Panel - Action Card */
+.rightPanel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 48px;
+  max-width: 420px;
+  width: 100%;
+  border: 1px solid rgba(30, 144, 255, 0.1);
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+}
+
+.cardDescription {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 32px 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttonPrimary {
+  background: linear-gradient(90deg, #1e90ff 0%, #00c48c 100%);
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(30, 144, 255, 0.2);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(30, 144, 255, 0.3);
+}
+
+.buttonSecondary {
+  background: transparent;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  padding: 12px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.buttonSecondary:hover {
+  background: #1e90ff;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  padding: 32px 0;
+  text-align: center;
+  color: #7a7a7a;
+  font-size: 14px;
+  background: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Mobile Responsive - Stacked Layout */
+@media (max-width: 968px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding: 32px 24px;
+  }
+
+  .leftPanel {
+    text-align: center;
+    gap: 32px;
+  }
+
+  .headline {
+    font-size: 28px;
+  }
+
+  .description {
+    max-width: 100%;
+  }
+
+  .highlights {
+    align-items: center;
+  }
+
+  .highlight {
+    justify-content: center;
+  }
+
+  .rightPanel {
+    justify-content: center;
+  }
+
+  .card {
+    padding: 32px 24px;
+    max-width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 20px;
+  }
+
+  .cardDescription {
+    font-size: 15px;
+  }
+
+  .buttonPrimary,
+  .buttonSecondary {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .content {
+    padding: 24px 16px;
+    gap: 32px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .headline {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .highlights {
+    gap: 12px;
+  }
+
+  .highlight {
+    font-size: 15px;
+  }
+
+  .icon {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .card {
+    padding: 24px 20px;
+  }
+}
