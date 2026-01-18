@@ -1,0 +1,60 @@
+{
+  "adminNavigation": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "path": "/admin",
+      "icon": "📊",
+      "enabled": true
+    },
+    {
+      "id": "notices",
+      "label": "Notices",
+      "path": "/admin/notices",
+      "icon": "📢",
+      "enabled": true
+    },
+    {
+      "id": "documents",
+      "label": "Documents",
+      "path": "/admin/documents",
+      "icon": "📄",
+      "enabled": true
+    },
+    {
+      "id": "events",
+      "label": "Events",
+      "path": "/admin/events",
+      "icon": "📅",
+      "enabled": true
+    },
+    {
+      "id": "gallery",
+      "label": "Gallery",
+      "path": "/admin/gallery",
+      "icon": "🖼️",
+      "enabled": true
+    },
+    {
+      "id": "committee",
+      "label": "Committee",
+      "path": "/admin/committee",
+      "icon": "👥",
+      "enabled": true
+    },
+    {
+      "id": "contact",
+      "label": "Contact Info",
+      "path": "/admin/contact",
+      "icon": "📞",
+      "enabled": true
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "path": "/admin/settings",
+      "icon": "⚙️",
+      "enabled": true
+    }
+  ]
+}

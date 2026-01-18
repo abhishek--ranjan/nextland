@@ -1,0 +1,170 @@
+{
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "/home",
+      "type": "link",
+      "enabled": true
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "path": "/about",
+      "type": "dropdown",
+      "enabled": true,
+      "items": [
+        {
+          "id": "about-society",
+          "label": "About Society",
+          "path": "/about",
+          "enabled": true
+        },
+        {
+          "id": "bye-laws",
+          "label": "Bye-laws",
+          "path": "/about/bye-laws",
+          "enabled": true
+        },
+        {
+          "id": "committee",
+          "label": "Management Committee",
+          "path": "/committee",
+          "enabled": true
+        },
+        {
+          "id": "sub-committees",
+          "label": "Sub-Committees",
+          "path": "/committee/sub-committees",
+          "enabled": true
+        },
+        {
+          "id": "vision",
+          "label": "Vision & Objectives",
+          "path": "/about/vision",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "label": "Governance",
+      "path": "/governance",
+      "type": "dropdown",
+      "enabled": true,
+      "items": [
+        {
+          "id": "notices",
+          "label": "Notices & Circulars",
+          "path": "/notices",
+          "enabled": true
+        },
+        {
+          "id": "agm",
+          "label": "AGM/GBM",
+          "path": "/governance/agm",
+          "enabled": true
+        },
+        {
+          "id": "minutes",
+          "label": "Minutes",
+          "path": "/governance/minutes",
+          "enabled": true
+        },
+        {
+          "id": "financial",
+          "label": "Financial Information",
+          "path": "/governance/financial",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "path": "/facilities",
+      "type": "dropdown",
+      "enabled": true,
+      "items": [
+        {
+          "id": "towers",
+          "label": "Towers & Layout",
+          "path": "/facilities/towers",
+          "enabled": true
+        },
+        {
+          "id": "amenities",
+          "label": "Amenities",
+          "path": "/facilities/amenities",
+          "enabled": true
+        },
+        {
+          "id": "utilities",
+          "label": "Utilities",
+          "path": "/facilities/utilities",
+          "enabled": true
+        },
+        {
+          "id": "vendors",
+          "label": "Vendors",
+          "path": "/facilities/vendors",
+          "enabled": true
+        },
+        {
+          "id": "helpdesk",
+          "label": "Helpdesk",
+          "path": "/facilities/helpdesk",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "path": "/community",
+      "type": "dropdown",
+      "enabled": true,
+      "items": [
+        {
+          "id": "events",
+          "label": "Events & Celebrations",
+          "path": "/events",
+          "enabled": true
+        },
+        {
+          "id": "event-calendar",
+          "label": "Event Calendar",
+          "path": "/events/calendar",
+          "enabled": true
+        },
+        {
+          "id": "sustainability",
+          "label": "Sustainability",
+          "path": "/community/sustainability",
+          "enabled": true
+        },
+        {
+          "id": "photo-gallery",
+          "label": "Photo Gallery",
+          "path": "/photo-gallery",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "/contact",
+      "type": "link",
+      "enabled": true
+    },
+    {
+      "id": "login",
+      "label": "Login",
+      "path": "/admin",
+      "type": "link",
+      "enabled": true,
+      "highlight": true
+    }
+  ]
+}

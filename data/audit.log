@@ -1,0 +1,1 @@
+{"timestamp":"2026-01-16T19:31:01.133Z","action":"UPDATE_CONFIG","user":"admin","changes":["societyName","shortName","rwaNumber","yearEstablished","address","city","state","pincode","mapUrl","branding","statistics","primaryContact","email","emergencyContact","officeHours","websiteUrl","setupDate","mode"]}
