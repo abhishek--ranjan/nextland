@@ -1,0 +1,34 @@
+[
+  {
+    "id": "GAL-20260115080000",
+    "title": "New Year Community Gathering",
+    "date": "2026-01-01",
+    "category": "Community Event",
+    "coverImage": "/images/gallery/newyear-cover.jpg",
+    "photoCount": 12
+  },
+  {
+    "id": "GAL-20251225120000",
+    "title": "Christmas Celebration 2025",
+    "date": "2025-12-25",
+    "category": "Festival",
+    "coverImage": "/images/gallery/christmas-cover.jpg",
+    "photoCount": 18
+  },
+  {
+    "id": "GAL-20251215100000",
+    "title": "Annual Sports Day",
+    "date": "2025-12-15",
+    "category": "Sports",
+    "coverImage": "/images/gallery/sports-cover.jpg",
+    "photoCount": 24
+  },
+  {
+    "id": "GAL-20251120140000",
+    "title": "Diwali Celebrations",
+    "date": "2025-11-20",
+    "category": "Festival",
+    "coverImage": "/images/gallery/diwali-cover.jpg",
+    "photoCount": 20
+  }
+]

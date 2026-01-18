@@ -1,0 +1,46 @@
+{
+  "societyName": "NextLand Society",
+  "address": "Sector XYZ, Delhi, 110068",
+  "contactNumber": "+91-XXXXXXXXXX",
+  "email": "office@nextland.org",
+  "rwaRegistrationNumber": "DL/NOI/2015/NEXTLAND",
+  "yearOfEstablishment": 2015,
+  "numberOfTowers": 4,
+  "numberOfUnits": 320,
+  "officeHours": "Monday to Saturday, 10:00 AM – 5:00 PM",
+  "websiteUrl": "https://nextland.org",
+  "logoUrl": "/images/logo.png",
+  "emergencyContact": "+91-XXXXXXXXXX",
+  "mapLocation": "https://maps.google.com/?q=NextLand+Society",
+  "adminEmails": [
+    "admin@nextland.org",
+    "secretary@nextland.org"
+  ],
+  "mode": "demo",
+  "shortName": "NextLand",
+  "rwaNumber": "DL/NOI/2015/NEXTLAND",
+  "yearEstablished": "2015",
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "pincode": "201301",
+  "mapUrl": "https://maps.google.com/?q=Nextland+Society",
+  "description": "Nextland Society is a premium residential society offering contemporary living with modern amenities. Located in Delhi, it features well-planned towers, comprehensive facilities, and a vibrant community focused on sustainable living and transparent governance.",
+  "branding": {
+    "logo": "/images/logo.png",
+    "themeColor": "#0d6efd"
+  },
+  "features": [
+    "Multiple residential towers with modern amenities",
+    "24x7 power backup and essential utilities",
+    "Green and sustainability-focused initiatives",
+    "Active resident community engagement"
+  ],
+  "statistics": {
+    "numTowers": "6",
+    "numUnits": "240",
+    "totalResidents": "960"
+  },
+  "primaryContact": "+91-1234567890",
+  "setupDate": "2015-08-15",
+  "updatedAt": "2026-01-17T00:00:00.000Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "NOT-20260110120000",
+  "title": "Lift Maintenance Schedule",
+  "date": "2026-01-10",
+  "category": "Maintenance",
+  "details": "This is to inform all residents that routine lift maintenance will be carried out in all towers on January 18, 2026, from 9:00 AM to 5:00 PM.\n\nDuring this period, lifts will be operational on a rotational basis (one lift at a time per tower).\n\nWe regret any inconvenience caused and request your cooperation.\n\nThank you,\nMaintenance Team",
+  "issuedBy": "Management Committee",
+  "attachments": [],
+  "meta": {
+    "env": "demo",
+    "approved": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "Nextland Society, Demo Sector, City",
+  "email": "office@nextland-demo.in",
+  "officeHours": "Monday to Friday, 10:00 AM – 6:00 PM",
+  "emergencyNote": "For emergencies, please contact local authorities.",
+  "mapUrl": "https://maps.google.com/",
+  "meta": {
+    "env": "demo"
+  }
+}

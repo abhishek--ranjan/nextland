@@ -1,0 +1,12 @@
+{
+  "id": "NOT-20260105090000",
+  "title": "Scheduled Water Supply Maintenance",
+  "date": "2026-01-05",
+  "category": "Utility",
+  "details": "Residents are informed that water supply will be temporarily unavailable from 10:00 AM to 2:00 PM due to scheduled maintenance work.",
+  "issuedBy": "Management Committee",
+  "meta": {
+    "env": "demo",
+    "approved": true
+  }
+}

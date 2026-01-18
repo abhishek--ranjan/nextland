@@ -1,0 +1,13 @@
+{
+  "id": "COM-20260101090006",
+  "designation": "Member",
+  "name": "Rohit Verma",
+  "term": "2024–2026",
+  "flat": "C-303",
+  "phone": "+91 98765 43216",
+  "email": "rohit.verma@nextland.org",
+  "responsibilities": "Participates in committee decisions and oversees maintenance and security matters.",
+  "meta": {
+    "env": "demo"
+  }
+}

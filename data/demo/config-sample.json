@@ -1,0 +1,17 @@
+{
+  "societyName": "NextLand Society",
+  "address": "Sample Address, Demo City",
+  "contactNumber": "+91-00000-00000",
+  "email": "demo@nextland.org",
+  "rwaRegistrationNumber": "DEMO/2024/00000",
+  "yearOfEstablishment": 2020,
+  "numberOfTowers": 5,
+  "numberOfUnits": 300,
+  "officeHours": "Mon-Fri 10am-5pm",
+  "websiteUrl": "https://nextland.org",
+  "logoUrl": "/images/logo.png",
+  "emergencyContact": "+91-00000-00000",
+  "mapLocation": "https://maps.google.com/?q=NextLand+Society",
+  "adminEmails": ["demo@nextland.org"],
+  "mode": "demo"
+}

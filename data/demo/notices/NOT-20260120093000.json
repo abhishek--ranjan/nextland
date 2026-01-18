@@ -1,0 +1,11 @@
+{
+  "id": "NOT-20260120093000",
+  "title": "Security Alert - Visitor Registration Mandatory",
+  "category": "security",
+  "content": "All residents are reminded to ensure that their visitors register at the security gate. Unregistered visitors will not be allowed entry. This is for the safety and security of all residents.",
+  "priority": "normal",
+  "status": "active",
+  "date": "2026-01-20",
+  "createdAt": "2026-01-20T09:30:00.000Z",
+  "updatedAt": "2026-01-20T09:30:00.000Z"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "COM-20260101090000",
+    "designation": "President",
+    "name": "Rajesh Kumar Sharma",
+    "term": "2024–2026"
+  },
+  {
+    "id": "COM-20260101090001",
+    "designation": "Vice President",
+    "name": "Priya Mehta",
+    "term": "2024–2026"
+  },
+  {
+    "id": "COM-20260101090002",
+    "designation": "Secretary",
+    "name": "Amit Patel",
+    "term": "2024–2026"
+  },
+  {
+    "id": "COM-20260101090003",
+    "designation": "Joint Secretary",
+    "name": "Sneha Desai",
+    "term": "2024–2026"
+  },
+  {
+    "id": "COM-20260101090004",
+    "designation": "Treasurer",
+    "name": "Vivek Agarwal",
+    "term": "2024–2026"
+  },
+  {
+    "id": "COM-20260101090005",
+    "designation": "Member",
+    "name": "Kavita Singh",
+    "term": "2024–2026"
+  },
+  {
+    "id": "COM-20260101090006",
+    "designation": "Member",
+    "name": "Rohit Verma",
+    "term": "2024–2026"
+  }
+]

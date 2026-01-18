@@ -1,0 +1,11 @@
+{
+  "id": "EVT-20260126090000",
+  "title": "Republic Day Community Celebration",
+  "date": "2026-01-26",
+  "category": "Community Event",
+  "location": "Community Park",
+  "description": "Flag hoisting followed by cultural activities and community interaction.",
+  "meta": {
+    "env": "demo"
+  }
+}

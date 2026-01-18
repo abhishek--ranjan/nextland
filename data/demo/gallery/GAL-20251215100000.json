@@ -1,0 +1,22 @@
+{
+  "id": "GAL-20251215100000",
+  "title": "Annual Sports Day",
+  "date": "2025-12-15",
+  "category": "Sports",
+  "coverImage": "/images/gallery/sports-cover.jpg",
+  "description": "Action-packed sports day with cricket, badminton, and relay races for all ages.",
+  "photoCount": 24,
+  "images": [
+    "/images/gallery/sports1.jpg",
+    "/images/gallery/sports2.jpg",
+    "/images/gallery/sports3.jpg",
+    "/images/gallery/sports4.jpg",
+    "/images/gallery/sports5.jpg",
+    "/images/gallery/sports6.jpg",
+    "/images/gallery/sports7.jpg",
+    "/images/gallery/sports8.jpg"
+  ],
+  "meta": {
+    "env": "demo"
+  }
+}

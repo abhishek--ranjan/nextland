@@ -1,0 +1,16 @@
+{
+  "name": "Nextland Society",
+  "code": "SOC-NEXTLAND",
+  "description": "Nextland Society is a planned residential community designed to offer a safe, comfortable, and vibrant living environment for residents. The society focuses on transparent governance, sustainable living, and active community participation.",
+  "highlights": [
+    "Multiple residential towers with modern amenities",
+    "Power backup and essential utilities",
+    "Green and sustainability-focused initiatives",
+    "Active resident community"
+  ],
+  "vision": "To create a harmonious, safe, and inclusive living environment through responsible governance, sustainable practices, and active community participation.",
+  "meta": {
+    "env": "demo",
+    "status": "active"
+  }
+}

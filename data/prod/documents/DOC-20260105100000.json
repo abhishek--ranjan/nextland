@@ -1,0 +1,12 @@
+{
+  "id": "DOC-20260105100000",
+  "title": "Annual Maintenance Report 2025",
+  "date": "2026-01-05",
+  "category": "Reports",
+  "file": "/demo/docs/maintenance-report-2025.pdf",
+  "size": "1.2 MB",
+  "description": "Comprehensive maintenance report covering lift servicing, painting work, electrical upgrades, and plumbing repairs for the year 2025.",
+  "meta": {
+    "env": "demo"
+  }
+}

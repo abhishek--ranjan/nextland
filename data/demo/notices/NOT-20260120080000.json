@@ -1,0 +1,13 @@
+{
+  "id": "NOT-20260120080000",
+  "title": "Annual General Meeting Notice",
+  "date": "2026-01-20",
+  "category": "Governance",
+  "details": "Dear Residents,\n\nThis is to inform you that the Annual General Meeting (AGM) of Nextland Society will be held on February 15, 2026, at 4:00 PM in the Society Clubhouse.\n\nAgenda:\n1. Approval of previous year's minutes\n2. Financial report presentation\n3. Election of Management Committee members\n4. Discussion on proposed maintenance increase\n5. Any other business\n\nAll residents are requested to attend.\n\nRegards,\nManagement Committee",
+  "issuedBy": "Management Committee",
+  "attachments": [],
+  "meta": {
+    "env": "demo",
+    "approved": true
+  }
+}

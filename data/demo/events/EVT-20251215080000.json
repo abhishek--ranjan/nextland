@@ -1,0 +1,11 @@
+{
+  "id": "EVT-20251215080000",
+  "title": "Annual Sports Day",
+  "date": "2025-12-15",
+  "category": "Sports",
+  "location": "Sports Complex",
+  "description": "Annual sports tournament featuring cricket, badminton, and athletics for all age groups.",
+  "meta": {
+    "env": "demo"
+  }
+}

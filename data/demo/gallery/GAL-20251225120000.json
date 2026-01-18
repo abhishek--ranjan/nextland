@@ -1,0 +1,20 @@
+{
+  "id": "GAL-20251225120000",
+  "title": "Christmas Celebration 2025",
+  "date": "2025-12-25",
+  "category": "Festival",
+  "coverImage": "/images/gallery/christmas-cover.jpg",
+  "description": "A wonderful evening of carols, decorations, and community bonding during Christmas festivities.",
+  "photoCount": 18,
+  "images": [
+    "/images/gallery/christmas1.jpg",
+    "/images/gallery/christmas2.jpg",
+    "/images/gallery/christmas3.jpg",
+    "/images/gallery/christmas4.jpg",
+    "/images/gallery/christmas5.jpg",
+    "/images/gallery/christmas6.jpg"
+  ],
+  "meta": {
+    "env": "demo"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "COM-20260101090002",
+  "designation": "Secretary",
+  "name": "Amit Patel",
+  "term": "2024–2026",
+  "flat": "C-104",
+  "phone": "+91 98765 43212",
+  "email": "secretary@nextland.org",
+  "responsibilities": "Maintains records, manages correspondence, and coordinates meetings and communications.",
+  "meta": {
+    "env": "demo"
+  }
+}

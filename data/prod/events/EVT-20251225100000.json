@@ -1,0 +1,11 @@
+{
+  "id": "EVT-20251225100000",
+  "title": "Christmas Community Gathering",
+  "date": "2025-12-25",
+  "category": "Festival",
+  "location": "Community Park",
+  "description": "Celebrate Christmas with carols, gifts exchange, and festive treats for all residents.",
+  "meta": {
+    "env": "demo"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "COM-20260101090003",
+  "designation": "Joint Secretary",
+  "name": "Sneha Desai",
+  "term": "2024–2026",
+  "flat": "D-205",
+  "phone": "+91 98765 43213",
+  "email": "jointsecretary@nextland.org",
+  "responsibilities": "Assists the Secretary in administrative duties and maintains backup records.",
+  "meta": {
+    "env": "demo"
+  }
+}

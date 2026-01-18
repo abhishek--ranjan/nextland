@@ -1,0 +1,20 @@
+{
+  "id": "GAL-20251120140000",
+  "title": "Diwali Celebrations",
+  "date": "2025-11-20",
+  "category": "Festival",
+  "coverImage": "/images/gallery/diwali-cover.jpg",
+  "description": "Festival of lights celebration with rangoli competition, diya decoration, and community dinner.",
+  "photoCount": 20,
+  "images": [
+    "/images/gallery/diwali1.jpg",
+    "/images/gallery/diwali2.jpg",
+    "/images/gallery/diwali3.jpg",
+    "/images/gallery/diwali4.jpg",
+    "/images/gallery/diwali5.jpg",
+    "/images/gallery/diwali6.jpg"
+  ],
+  "meta": {
+    "env": "demo"
+  }
+}

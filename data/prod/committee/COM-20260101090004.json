@@ -1,0 +1,13 @@
+{
+  "id": "COM-20260101090004",
+  "designation": "Treasurer",
+  "name": "Vivek Agarwal",
+  "term": "2024–2026",
+  "flat": "A-203",
+  "phone": "+91 98765 43214",
+  "email": "treasurer@nextland.org",
+  "responsibilities": "Manages financial accounts, prepares budgets, and ensures compliance with financial regulations.",
+  "meta": {
+    "env": "demo"
+  }
+}

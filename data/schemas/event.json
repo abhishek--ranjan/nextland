@@ -1,0 +1,14 @@
+{
+  "id": null,
+  "title": "",
+  "date": "",
+  "time": "",
+  "category": "",
+  "location": "",
+  "description": "",
+  "imagePath": null,
+  "featured": false,
+  "status": "published",
+  "createdAt": "",
+  "updatedAt": ""
+}

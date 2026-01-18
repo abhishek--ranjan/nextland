@@ -1,0 +1,37 @@
+{
+  "society": {
+    "name": "Nextland Residential Society",
+    "shortName": "Nextland",
+    "address": "Block A, Phase 2, Sector 42, New Town",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": "560001",
+    "country": "India",
+    "registrationNumber": "KA/BLR/2020/12345",
+    "establishedYear": "2020"
+  },
+  "branding": {
+    "primaryColor": "#0d6efd",
+    "secondaryColor": "#6c757d",
+    "accentColor": "#198754",
+    "logo": "/images/logo.png",
+    "favicon": "/favicon.ico",
+    "tagline": "Building Communities, Creating Homes"
+  },
+  "system": {
+    "mode": "demo",
+    "readOnly": false,
+    "maintenanceMode": false,
+    "version": "1.0.0"
+  },
+  "features": {
+    "enableGallery": true,
+    "enableEvents": true,
+    "enableDocuments": true,
+    "enableNotices": true,
+    "enableCommittee": true,
+    "enableContact": true
+  },
+  "updatedAt": "2026-01-17T10:00:00.000Z",
+  "updatedBy": "admin"
+}

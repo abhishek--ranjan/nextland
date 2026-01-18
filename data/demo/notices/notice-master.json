@@ -1,0 +1,26 @@
+[
+  {
+    "id": "NOT-20260120080000",
+    "title": "Annual General Meeting Notice",
+    "date": "2026-01-20",
+    "category": "Governance"
+  },
+  {
+    "id": "NOT-20260115140000",
+    "title": "Republic Day Celebration 2026",
+    "date": "2026-01-15",
+    "category": "Community Event"
+  },
+  {
+    "id": "NOT-20260110120000",
+    "title": "Lift Maintenance Schedule",
+    "date": "2026-01-10",
+    "category": "Maintenance"
+  },
+  {
+    "id": "NOT-20260105090000",
+    "title": "Scheduled Water Supply Maintenance",
+    "date": "2026-01-05",
+    "category": "Utility"
+  }
+]

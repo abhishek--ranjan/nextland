@@ -1,0 +1,13 @@
+{
+  "id": "COM-20260101090001",
+  "designation": "Vice President",
+  "name": "Priya Mehta",
+  "term": "2024–2026",
+  "flat": "B-302",
+  "phone": "+91 98765 43211",
+  "email": "vp@nextland.org",
+  "responsibilities": "Assists the President and acts in their absence. Coordinates with sub-committees.",
+  "meta": {
+    "env": "demo"
+  }
+}

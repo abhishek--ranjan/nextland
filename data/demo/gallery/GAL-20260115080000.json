@@ -1,0 +1,18 @@
+{
+  "id": "GAL-20260115080000",
+  "title": "New Year Community Gathering",
+  "date": "2026-01-01",
+  "category": "Community Event",
+  "coverImage": "/images/gallery/newyear-cover.jpg",
+  "description": "Photographs from the New Year celebration organised by residents with fun activities and midnight countdown.",
+  "photoCount": 12,
+  "images": [
+    "/images/gallery/newyear1.jpg",
+    "/images/gallery/newyear2.jpg",
+    "/images/gallery/newyear3.jpg",
+    "/images/gallery/newyear4.jpg"
+  ],
+  "meta": {
+    "env": "demo"
+  }
+}
