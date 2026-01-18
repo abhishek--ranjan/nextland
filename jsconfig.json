@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/utils/*": ["./utils/*"],
+      "@/components/*": ["./components/*"],
+      "@/app/*": ["./app/*"]
+    },
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "preserve"
+  },
+  "include": [
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules", ".next"]
+}
